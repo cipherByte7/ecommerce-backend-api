@@ -89,10 +89,10 @@ router.post("/login", async function (req, res) {
 });
 
 router.post("/logout", function (req, res) {
-    res.clearCookie("token");
+    res.clearCookie("ownerToken");
 
     return res.status(200).json({
-        message: "Logged out successfully"
+        message: "Owner logged out successfully"
     });
 });
 

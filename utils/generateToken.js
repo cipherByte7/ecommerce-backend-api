@@ -8,7 +8,7 @@ module.exports = function (user) {
         },
         process.env.JWT_KEY,
         {
-            expiresIn: "3d"
+            expiresIn: "7d"
         }
     );
 };
