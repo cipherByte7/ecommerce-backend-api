@@ -1462,7 +1462,7 @@ node_modules/
 Clone the repository:
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/cipherByte7/ecommerce-backend-api.git
 ```
 
 Enter the project:
